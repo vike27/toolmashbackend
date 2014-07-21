@@ -1,0 +1,48 @@
+@import "bootstrap";
+
+/*------ Google font imports -----*/
+@import url(http://fonts.googleapis.com/css?family=Lobster|Open+Sans+Condensed:300);
+
+
+
+
+
+
+/*----header-----*/
+
+
+.navbar {
+	margin: 0px;
+	border-bottom: 0px;
+}
+
+.navbar-inverse {
+	background-color: #d9534f;
+}
+.navbar-inverse .navbar-header .navbar-brand {
+  color: white;
+  padding-left: 25px;
+  padding-top: 10px;
+  font-size: 36px;
+  font-family: 'Lobster', cursive;
+}
+
+.navbar-container-right .navbar-right > li > a {
+	color: white;
+}
+
+.navbar-container-right .navbar-right > li > a:hover {
+	color: black;
+}
+
+.container-fluid {
+	padding-top: 10px;
+}
+
+/*--- New Tool Page ---*/
+
+.new_tool {
+	margin: auto;
+	width: 300px;
+	padding-top: 50px;
+}

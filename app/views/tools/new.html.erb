@@ -1,0 +1,15 @@
+This is new tools page must be restricted to only admin (use rolify gem maybe? or devise built in ?)
+
+<%#= form_for @tool do |f| %>
+  <%#= label_tag :Name %>
+  <%#= f.text_field :name %>
+  <%#= label_tag :Description %>
+  <%#= f.text_area :description %>
+  <%#= f.submit "Create" %>
+<%# end %>
+
+<%= bootstrap_form_for(@tool) do |f| %>
+  <%= f.text_field :name %>
+  <%= f.text_field :description %>
+  <%= f.submit %>
+<% end %>
