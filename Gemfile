@@ -6,6 +6,10 @@ gem 'rails', '4.1.1'
 
 gem 'bootstrap-sass', '~> 3.1.1'
 gem 'bootstrap_form'
+gem 'dragonfly', '~> 1.0.5'
+gem 'masonry-rails'
+gem 'will_paginate', '~> 3.0'
+gem 'will_paginate-bootstrap'
 
 gem 'devise'
 # Use sqlite3 as the database for Active Record
